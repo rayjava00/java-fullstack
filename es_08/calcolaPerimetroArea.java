@@ -8,6 +8,9 @@ public class calcolaPerimetroArea
     public static void main(String[] args)
     {
       Scanner input = new Scanner(System.in);
+      System.out.print("Inserisci nome utente: ");
+      String nome;
+      nome = input.next();
       System.out.print("Inserisci la lunghezza del lato: ");
       int lato; 
       lato = input.nextInt();
