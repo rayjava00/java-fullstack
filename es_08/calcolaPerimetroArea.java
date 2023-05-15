@@ -2,7 +2,7 @@
 
 
 
-public class calcolaPerimetroArea //ricordarsi di cambiare il nome della classe
+public class calcolaPerimetroArea 
 
 
 {
