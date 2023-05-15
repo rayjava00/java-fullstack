@@ -16,8 +16,9 @@ public class calcolaPerimetroArea
       area = lato*lato;
       perimetro = lato*4;
       //aggiunto una condizione che verifica l'input 
-      if (lato > 40){ //se l'input è > 40
-        System.out.println("Hai inserito un numero troppo grande"); 
+      if (lato > 40 || lato < 1){ 
+        //se l'input è > 40
+        System.out.println("Hai inserito un numero non valido"); 
       }
       else{ // se l'input <= 40
       System.out.println("Il lato inserito: "+lato);//concateno testo e variabili
