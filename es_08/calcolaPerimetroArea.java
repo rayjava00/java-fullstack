@@ -20,7 +20,7 @@ public class calcolaPerimetroArea
       perimetro = lato*4;
       //aggiunto una condizione che verifica l'input 
       if (lato > 40 || lato < 1)
-      { 
+    { 
         if (lato>40){
         System.out.println("Hai inserito un troppo grande"); 
       }
@@ -28,7 +28,8 @@ public class calcolaPerimetroArea
         System.out.println("Hai inserito un numero troppo piccolo");
       }
     }
-      else{ // se l'input <= 40
+      else
+      { // se l'input <= 40
       System.out.println("Il lato inserito: "+lato);//concateno testo e variabili
       System.out.println ("L'area è: "+area);
       System.out.println ("Il perimetro è: "+perimetro); 
@@ -36,8 +37,6 @@ public class calcolaPerimetroArea
       input.close(); 
       //lascio fuori dal if else la chiusura della classe
     }   
-
-
 }   
 
 
