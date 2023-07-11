@@ -2,37 +2,60 @@
 <html>
 <head>
     <title>Full Stack Competenze</title>
-<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+<body>
+  
+    <div class="hero">
+        <h1>Il mio sito Full Stack</h1>
+        <p> Scopri le mie conoscenze</p>
+
+    </div>
+</body>
 <body>
     <div class="menu">
         <a href="#backend">Sviluppo Backend</a>
         <a href="#frontend">Sviluppo Frontend</a>
         <a href="#database">Gestione Database</a>
+        <a href="#oop">Programmazione Orientata agli Oggetti</a>
+        <a href="#contact">Contatti</a>
     </div>
     <div class="container">
         <div class="section" id="backend">
+            
             <div class="card">
                 <img src="img/for-business.svg" alt="Backend Development">
+                <i class="fas fa-8x fa-brands fa-node" style></i>
                 <h2>Sviluppo Backend</h2>
                 <p>Competenze in Node.js, Express.js, Python, Django, Ruby on Rails, ecc.</p>
             </div>
-        </div>
-        <div class="section" id="frontend">
             <div class="card">
                 <img src="img/for-designers.svg" alt="Frontend Development">
                 <h2>Sviluppo Frontend</h2>
                 <p>Competenze in HTML, CSS, JavaScript, React.js, Vue.js, Angular.js, ecc.</p>
             </div>
-        </div>
-        <div class="section" id="database">
             <div class="card">
                 <img src="img/for-everyone.svg" alt="Database Management">
                 <h2>Gestione Database</h2>
                 <p>Competenze MySQL, PostgreSQL, MongoDB, Firebase, ecc.</p>
             </div>
+          
+        </div>
+        <div class="form-section" id="contact">
+            <h2>Contattami</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="messagge">Messaggio:</label>
+                <textarea id="message" name="message" rows="3" required></textarea>
+                <button>Invia</button>
+            </form>
         </div>
     </div>
 </body>
 </html>
+

@@ -8,6 +8,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+    background: linear-gradient(90deg, rgba(36,36,0,0.41780462184873945) 0%, rgba(121,9,9,1) 35%, rgba(0,212,255,1) 100%);
 }
 .section {
     display: grid;
@@ -48,6 +49,7 @@ body {
     padding: 20px;
     text-align: center;
     transition:  0.3s ease-in-out;
+    background-color: white;
 }
 .card img{
     width:100%;
@@ -55,4 +57,57 @@ body {
 }
 .card:hover{
     transform: scale(1.05);
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #fff;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 5.5em;
+}
+.hero p {
+    font-size: 1,5em;
+}
+
+.form-section{
+    text-align: center;   
+}
+
+.form-section input {
+    display: block;
+    width: 100%;
+}
+.form-section textarea {
+    display: block;
+    width: 100%;
+
+    }
+
+/* .form-section  */button {
+       cursor: pointer;
+        width: 100%;
+        color: #ff7e5f;
+        background-color: aqua;
+        border: 2px solid red;
+        border-width: 2px;
+        
+        transition: 0.1s ease-in-out;
+        }
+
+.form-section button:hover {
+    background-color: darkgrey;
+    transform:skew(20deg, 15deg);
+}
+   
+button {
+    background-color: green;
+    width: 50px;
 }
