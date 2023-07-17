@@ -1,0 +1,72 @@
+body{
+    font-family: 'Larsseit', sans-serif;
+    font-family: 'Larsseit Bold', sans-serif;
+
+}
+
+.item1 { 
+    grid-area: header;
+    color: rgb(0, 0, 0);
+   
+    background-image:url('img/');
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: center;
+
+    background-attachment: fixed;
+
+    height: 270px;
+
+}
+.item2 { 
+    grid-area: left; 
+
+}
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left left main main right right'
+    'footer footer footer footer footer footer';
+  gap: 0px;
+  background-color: #ffffff;
+  padding: 0px;
+  outline: none;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  outline: none;
+}
+.icon {
+    size: 3000px;
+}
+.paragrafo1{
+    font-size: 150%;
+    position: relative;
+    bottom: 35px;
+    color: rgb(0, 0, 0);
+}
+.grid-container p{
+    
+}
+.menu {
+
+    background-color: #a48244;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.menu a {
+    color: #bebebe;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
