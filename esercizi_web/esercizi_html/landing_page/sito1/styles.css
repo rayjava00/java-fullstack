@@ -51,10 +51,8 @@ body {
     transition:  0.3s ease-in-out;
     background-color: white;
 }
-.card img{
-    width:100%;
-    height:auto;
-}
+
+
 .card:hover{
     transform: scale(1.05);
 }
@@ -103,8 +101,8 @@ body {
         }
 
 .form-section button:hover {
-    background-color: darkgrey;
-    transform:skew(20deg, 15deg);
+    background-color: rgb(249, 9, 9);
+    transform: scale(1.5);
 }
    
 button {
